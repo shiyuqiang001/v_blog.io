@@ -3,18 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>2019年回忆 | Coder-Monkey</title>
+    <title>类和方法 | Coder-Monkey</title>
     <meta name="generator" content="VuePress 1.8.2">
     
     <meta name="description" content="~从前端到全栈开发~和码路工人一起学~">
     
-    <link rel="preload" href="/assets/css/0.styles.8a396d0c.css" as="style"><link rel="preload" href="/assets/js/app.65f5f94f.js" as="script"><link rel="preload" href="/assets/js/2.ac0bba6e.js" as="script"><link rel="preload" href="/assets/js/25.7668a00a.js" as="script"><link rel="prefetch" href="/assets/js/10.fdf9ce06.js"><link rel="prefetch" href="/assets/js/11.2031154d.js"><link rel="prefetch" href="/assets/js/12.0465a9fb.js"><link rel="prefetch" href="/assets/js/13.739b7904.js"><link rel="prefetch" href="/assets/js/14.6d18e618.js"><link rel="prefetch" href="/assets/js/15.36c4030e.js"><link rel="prefetch" href="/assets/js/16.d296454f.js"><link rel="prefetch" href="/assets/js/17.12cc27f5.js"><link rel="prefetch" href="/assets/js/18.16240e2c.js"><link rel="prefetch" href="/assets/js/19.d1b74c3d.js"><link rel="prefetch" href="/assets/js/20.82d7ef3d.js"><link rel="prefetch" href="/assets/js/21.01fac78e.js"><link rel="prefetch" href="/assets/js/22.08a04543.js"><link rel="prefetch" href="/assets/js/23.c20243ad.js"><link rel="prefetch" href="/assets/js/24.9b26190c.js"><link rel="prefetch" href="/assets/js/26.b9921e62.js"><link rel="prefetch" href="/assets/js/27.858449b6.js"><link rel="prefetch" href="/assets/js/28.4a57c56e.js"><link rel="prefetch" href="/assets/js/29.916c9b05.js"><link rel="prefetch" href="/assets/js/3.4810022c.js"><link rel="prefetch" href="/assets/js/30.5217a13f.js"><link rel="prefetch" href="/assets/js/31.23c8838f.js"><link rel="prefetch" href="/assets/js/32.97640b6e.js"><link rel="prefetch" href="/assets/js/33.c000b49b.js"><link rel="prefetch" href="/assets/js/4.7afafd54.js"><link rel="prefetch" href="/assets/js/5.7261adcb.js"><link rel="prefetch" href="/assets/js/6.04ece6ae.js"><link rel="prefetch" href="/assets/js/7.d7d049c2.js"><link rel="prefetch" href="/assets/js/8.2381a395.js"><link rel="prefetch" href="/assets/js/9.869f4887.js">
+    <link rel="preload" href="/assets/css/0.styles.8a396d0c.css" as="style"><link rel="preload" href="/assets/js/app.65f5f94f.js" as="script"><link rel="preload" href="/assets/js/2.ac0bba6e.js" as="script"><link rel="preload" href="/assets/js/10.fdf9ce06.js" as="script"><link rel="prefetch" href="/assets/js/11.2031154d.js"><link rel="prefetch" href="/assets/js/12.0465a9fb.js"><link rel="prefetch" href="/assets/js/13.739b7904.js"><link rel="prefetch" href="/assets/js/14.6d18e618.js"><link rel="prefetch" href="/assets/js/15.36c4030e.js"><link rel="prefetch" href="/assets/js/16.d296454f.js"><link rel="prefetch" href="/assets/js/17.12cc27f5.js"><link rel="prefetch" href="/assets/js/18.16240e2c.js"><link rel="prefetch" href="/assets/js/19.d1b74c3d.js"><link rel="prefetch" href="/assets/js/20.82d7ef3d.js"><link rel="prefetch" href="/assets/js/21.01fac78e.js"><link rel="prefetch" href="/assets/js/22.08a04543.js"><link rel="prefetch" href="/assets/js/23.c20243ad.js"><link rel="prefetch" href="/assets/js/24.9b26190c.js"><link rel="prefetch" href="/assets/js/25.7668a00a.js"><link rel="prefetch" href="/assets/js/26.b9921e62.js"><link rel="prefetch" href="/assets/js/27.858449b6.js"><link rel="prefetch" href="/assets/js/28.4a57c56e.js"><link rel="prefetch" href="/assets/js/29.916c9b05.js"><link rel="prefetch" href="/assets/js/3.4810022c.js"><link rel="prefetch" href="/assets/js/30.5217a13f.js"><link rel="prefetch" href="/assets/js/31.23c8838f.js"><link rel="prefetch" href="/assets/js/32.97640b6e.js"><link rel="prefetch" href="/assets/js/33.c000b49b.js"><link rel="prefetch" href="/assets/js/4.7afafd54.js"><link rel="prefetch" href="/assets/js/5.7261adcb.js"><link rel="prefetch" href="/assets/js/6.04ece6ae.js"><link rel="prefetch" href="/assets/js/7.d7d049c2.js"><link rel="prefetch" href="/assets/js/8.2381a395.js"><link rel="prefetch" href="/assets/js/9.869f4887.js">
     <link rel="stylesheet" href="/assets/css/0.styles.8a396d0c.css">
   </head>
   <body>
     <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Coder-Monkey</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
   首页
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="测试概念" class="dropdown-title"><span class="title">测试概念</span> <span class="arrow down"></span></button> <button type="button" aria-label="测试概念" class="mobile-dropdown-title"><span class="title">测试概念</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_concept/cognition/" class="nav-link router-link-active">
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="测试概念" class="dropdown-title"><span class="title">测试概念</span> <span class="arrow down"></span></button> <button type="button" aria-label="测试概念" class="mobile-dropdown-title"><span class="title">测试概念</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_concept/cognition/" class="nav-link">
   自我认定
 </a></li><li class="dropdown-item"><!----> <a href="/Test_concept/terminology/" class="nav-link">
   常用术语
@@ -70,7 +70,7 @@
   性能测试调优
 </a></li><li class="dropdown-item"><!----> <a href="/senior-js/module/" class="nav-link">
   工作+实战总结
-</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="语言" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="语言" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_Language/java/" class="nav-link">
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="语言" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="语言" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_Language/java/" class="nav-link router-link-active">
   java
 </a></li><li class="dropdown-item"><!----> <a href="/node/TODO2/" class="nav-link">
   python
@@ -110,7 +110,7 @@
   Github
   <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
   首页
-</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="测试概念" class="dropdown-title"><span class="title">测试概念</span> <span class="arrow down"></span></button> <button type="button" aria-label="测试概念" class="mobile-dropdown-title"><span class="title">测试概念</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_concept/cognition/" class="nav-link router-link-active">
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="测试概念" class="dropdown-title"><span class="title">测试概念</span> <span class="arrow down"></span></button> <button type="button" aria-label="测试概念" class="mobile-dropdown-title"><span class="title">测试概念</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_concept/cognition/" class="nav-link">
   自我认定
 </a></li><li class="dropdown-item"><!----> <a href="/Test_concept/terminology/" class="nav-link">
   常用术语
@@ -166,7 +166,7 @@
   性能测试调优
 </a></li><li class="dropdown-item"><!----> <a href="/senior-js/module/" class="nav-link">
   工作+实战总结
-</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="语言" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="语言" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_Language/java/" class="nav-link">
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="语言" class="dropdown-title"><span class="title">语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="语言" class="mobile-dropdown-title"><span class="title">语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Test_Language/java/" class="nav-link router-link-active">
   java
 </a></li><li class="dropdown-item"><!----> <a href="/node/TODO2/" class="nav-link">
   python
@@ -204,15 +204,86 @@
   效能测试
 </a></li></ul></div></div><div class="nav-item"><a href="https://github.com/shiyuqiang001" target="_blank" rel="noopener noreferrer" class="nav-link external">
   Github
-  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>说说测试</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>总结</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Test_concept/cognition/2017.html" class="sidebar-link">2017年回忆</a></li><li><a href="/Test_concept/cognition/2018.html" class="sidebar-link">2018年回忆</a></li><li><a href="/Test_concept/cognition/2019.html" aria-current="page" class="active sidebar-link">2019年回忆</a></li><li><a href="/Test_concept/cognition/2020.html" class="sidebar-link">2020年回忆</a></li><li><a href="/Test_concept/cognition/2021.html" class="sidebar-link">2021年回忆</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_2019年回忆"><a href="#_2019年回忆" class="header-anchor">#</a> 2019年回忆</h1></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>语言基础</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>类的概念</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Test_Language/java/class.html" aria-current="page" class="active sidebar-link">类和方法</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/Test_Language/java/class.html#成员变量" class="sidebar-link">成员变量</a></li><li class="sidebar-sub-header"><a href="/Test_Language/java/class.html#类的构造方法" class="sidebar-link">类的构造方法</a></li><li class="sidebar-sub-header"><a href="/Test_Language/java/class.html#对象" class="sidebar-link">对象</a></li></ul></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>逻辑控制器</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>面向对象</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据结构</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>异常处理</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>IO</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>网络请求</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>数据库操作</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="类和方法"><a href="#类和方法" class="header-anchor">#</a> 类和方法</h1> <h2 id="成员变量"><a href="#成员变量" class="header-anchor">#</a> 成员变量</h2> <div class="language- extra-class"><pre class="language-text"><code>/**
+ * 成员变量
+ */
+
+public class Day01 {
+    private  String  name;
+    //成员方法
+    public String getName(){
+        int id =0;  //局部变量
+        setName(&quot;java&quot;);
+        return id +this.name;
+    }
+    //成员方法
+    private void setName(String name) {
+        //this关键字 这里的this代表本类的一个对象
+        this.name = name;
+    }
+    //使用成员方法
+    public Day01 getBook(){
+        return this;
+    }
+}
+</code></pre></div><h2 id="类的构造方法"><a href="#类的构造方法" class="header-anchor">#</a> 类的构造方法</h2> <p>构造方法是一种与类同名的方法，对象的创建就是通过构造方法来完成</p> <div class="language- extra-class"><pre class="language-text"><code>public class Day02 {
+
+    //构造方法【无参】
+    public Day02(){
+        //this可以调用有参的构造方法，但是只能在无参构造方法中使用，而且必须是第一句
+        this(&quot;this调用无参构造方法&quot;);
+        System.out.println(&quot;调用无参构造方法&quot;);
+    }
+
+    //有参数的构造方法
+    public Day02(String name) {
+        System.out.println(&quot;有参数的构造方法&quot;);
+    }
+
+    public static void main(String[] args) {
+       Day02 day02 = new Day02();
+
+    }
+
+}
+</code></pre></div><h3 id="静态变量、常量、方法、主方法"><a href="#静态变量、常量、方法、主方法" class="header-anchor">#</a> 静态变量、常量、方法、主方法</h3> <ul><li>学习之前需要了解一下关键字 static ，应为被static修饰的变量、常量、方法被称为静态变量、常量、方法</li> <li>静态数据和静态方法的作用通常是为了提供共享数据和方法的一种实现，以static声明的对象和方法，使用时直接用类名调用这些静态成员</li> <li>注意：</li></ul> <p>1、静态方法中不可以使用this关键字</p> <p>2、静态方法中不可以直接调用非静态的方法</p> <p>主方法，程序的入口 使用关键字main定义</p> <div class="language- extra-class"><pre class="language-text"><code>public  class Day03 {
+    static double PI= 3.1415;   //静态成员变量
+    static  int  id;
+    //静态方法
+    public  static  void method1(){
+        System.out.println(&quot;我是一个静态方法&quot;);
+    }
+    //调用静态变量和方法
+    public void  method2(){
+        System.out.println(Day03.PI);
+        System.out.println(Day03.id);
+        Day03.method1();
+    }
+    //主方法，程序的入口
+    public static void main(String[] args) {
+        Day03 day03 = new Day03();
+        day03.method2();
+    }
+
+}
+</code></pre></div><h2 id="对象"><a href="#对象" class="header-anchor">#</a> 对象</h2> <ul><li>Java的在世界，完全可以为你自己new一个对象出来</li> <li>new 操作符创建对象，同时会自主调用构造方法中的代码</li> <li>对象的销毁</li> <li>java提供fianlize（）方法。来回收一些不是被new出来的对象，java自己回收机制不受人为控制，所以时间不确定</li> <li>当然我们也可以指直接调用system.gc()方法强制启动垃圾回收机制</li></ul> <div class="language- extra-class"><pre class="language-text"><code>public class Day04 {
+   public Day04(){
+       System.out.println(&quot;我是一个构造方法，你可以通过new来让我给你造个对象&quot;);
+   }
+
+   public static void main(String[] args) {
+       new Day04();
+   }
+}
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
-      <a href="/Test_concept/cognition/2018.html" class="prev">
-        2018年回忆
-      </a></span> <span class="next"><a href="/Test_concept/cognition/2020.html">
-        2020年回忆
+      <a href="/Test_Language/java/array.html" class="prev">
+        数组
+      </a></span> <span class="next"><a href="/Test_Language/java/control.html">
+        控制器
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.65f5f94f.js" defer></script><script src="/assets/js/2.ac0bba6e.js" defer></script><script src="/assets/js/25.7668a00a.js" defer></script>
+    <script src="/assets/js/app.65f5f94f.js" defer></script><script src="/assets/js/2.ac0bba6e.js" defer></script><script src="/assets/js/10.fdf9ce06.js" defer></script>
   </body>
 </html>
