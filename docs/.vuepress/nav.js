@@ -35,7 +35,7 @@ module.exports = [
         {text: 'UI自动化', link: '/mobile/TODO2/'},
         {text: '持续集成', link: '/mobile/TODO3/'},
         {text: '持续监控', link: '/mobile/TODO3/'},
-        {text: 'limux脚本化', link: '/mobile/TODO3/'},
+        {text: 'linux脚本化', link: '/mobile/TODO3/'},
         {text: '工作总结', link: '/senior-js/module/'},
       ]
     },
@@ -56,7 +56,7 @@ module.exports = [
     {
       text: '语言',
       items: [
-          {text: 'java', link: '/node/TODO1/'},
+          {text: 'java', link: '/Test_Language/java/'},
           {text: 'python', link: '/node/TODO2/'},
           {text: 'go', link: '/node/TODO3/'},
           {text: 'sql', link: '/node/TODO3/'},
@@ -67,6 +67,7 @@ module.exports = [
     {
       text: '基',
       items: [
+          {text: 'git', link: '/Test_base/git/'},
           {text: '单元测试框架', link: '/node/TODO1/'},
           {text: '断言库', link: '/node/TODO2/'},
           {text: '网路请求', link: '/node/TODO3/'},
@@ -88,6 +89,6 @@ module.exports = [
     },
     {
       text: 'Github',
-      link: 'https://https://github.com/shiyuqiang001'
+      link: 'https://github.com/shiyuqiang001'
     },
   ]
